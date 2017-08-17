@@ -38,7 +38,7 @@ class LoginController extends Controller
     }
 
     public function loginControl(){
-         return view('layout/authentication');
+         return view('auth/login');
     }
 
 }

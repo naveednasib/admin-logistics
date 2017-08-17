@@ -16,5 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/login', function () {
-    return view('layout/authentication');
+    return view('auth/login');
 });
