@@ -41,4 +41,7 @@ class LoginController extends Controller
          return view('auth/login');
     }
 
+    public function admin(){
+        return view('layout/dashboard');
+   }
 }
