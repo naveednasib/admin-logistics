@@ -42,6 +42,7 @@
     <script src="{{url('bootstrap/js/bootstrap.min.js')}}"></script>
     <!-- iCheck -->
     <script src="{{url('plugins/iCheck/icheck.min.js')}}"></script>
+  
     <script>
       $(function () {
         $('input').iCheck({

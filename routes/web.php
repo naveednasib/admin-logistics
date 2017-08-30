@@ -21,5 +21,5 @@ Route::get('/login', function () {
 
 
 Route::get('/admin', function () {
-    return view('layout/dashboard');
+    return view('dashboard/admin/admin-panel');
 });
